@@ -370,7 +370,7 @@ isaiminiweb.online,seulink.net,sextgem.com$$meta[http-equiv="refresh"]
 ||iamcdn.net/players/player*.*mins.js$script,domain=hydracdn.*|redirect-ads.com,important
 ||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com,important
 ||iamcdn.net/players/playhydraxs.min.js$script,domain=redirect-ads.com,important
-||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=ampproject.net|debilizator.tv|dplay.dk|news18.com|shahid.mbc.net
+||imasdk.googleapis.com^$important,script,redirect=noopjs,domain=ampproject.net|debilizator.tv|dplay.dk|news18.com|shahid.mbc.net|tvzavr.ru
 ||jsdelivr.net/*/jnck-adblock/$script,third-party
 ||jsdelivr.net/gh/Akshat-h/propeller/btagantiadb.js$script,third-party
 ||jsdelivr.net/gh/dewaplokis/$script,important
