@@ -256,6 +256,7 @@ ctrlv.link##div:contains(AdBlock)
 dizigang.com##[href*="/redirect.aspx"]
 funporns.com##.happy-inside-player
 hacoos.com###keep-ads
+redirect-ads.com###playback-fake
 homepornvideo.net###in_player_block
 imovie-time.cam,vidlink.org,streamz.*,nullpk.com,mitly.us,merdekaid.online,software-on.com,blogspot.com,filmyzilla.xyz##a[href*="/afu.php?"]
 javher.com###popLink
@@ -992,3 +993,6 @@ grabitbd.xyz,game3rb.com#%#//scriptlet("abort-current-inline-script", "document.
 
 badassdownloader.com,gearingcommander.com,premid.app,badasshardcore.com,badassoftcore.com,texture-packs.com,nulljungle.com,nullphpscript.com##+js(no-setTimeout-if.js, innerHTML)
 badassdownloader.com,gearingcommander.com,premid.app,badasshardcore.com,badassoftcore.com,texture-packs.com,nulljungle.com,nullphpscript.com#%#//scriptlet("prevent-setTimeout", "innerHTML")
+
+redirect-ads.com##+js(remove-attr.js, style, #over)
+redirect-ads.com#%#//scriptlet("remove-attr", "style", "#over")
