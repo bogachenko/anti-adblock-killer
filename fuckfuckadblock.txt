@@ -951,8 +951,8 @@ agrigentonotizie.it,anconatoday.it,arezzonotizie.it,avellinotoday.it,bresciatoda
 kimcartoon.*,kissorg.net,kisscenter.net##+js(no-setTimeout-if.js, adbWarnContainer)
 kimcartoon.*,kissorg.net,kisscenter.net#%#//scriptlet("prevent-setTimeout", "adbWarnContainer")
 
-hds-stream.tv,jetanimes.*,serieslatinoamerica.tv,movs4u.*,streampourvous.com,pinoymovieshub.*,hdss.*,pinoymovies.*,123moviesgo.*##+js(remove-attr.js, href, #clickfakeplayer)
-hds-stream.tv,jetanimes.*,serieslatinoamerica.tv,movs4u.*,streampourvous.com,pinoymovieshub.*,hdss.*,pinoymovies.*,123moviesgo.*#%#//scriptlet("remove-attr", "href", "#clickfakeplayer")
+hds-stream.tv,jetanimes.*,serieslatinoamerica.tv,movs4u.*,streampourvous.com,pinoymovieshub.*,hdss.*,pinoymovies.*,123moviesgo.*,the123movies.*##+js(remove-attr.js, href, #clickfakeplayer)
+hds-stream.tv,jetanimes.*,serieslatinoamerica.tv,movs4u.*,streampourvous.com,pinoymovieshub.*,hdss.*,pinoymovies.*,123moviesgo.*,the123movies.*#%#//scriptlet("remove-attr", "href", "#clickfakeplayer")
 
 imgur.com##+js(set-constant.js, ADBLOCKED, false)
 imgur.com#%#//scriptlet("set-constant", "ADBLOCKED", "false")
