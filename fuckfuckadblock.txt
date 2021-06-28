@@ -793,9 +793,6 @@ atakanyavuz.com,gadgetguideonline.com,scubidu.eu,therootdroid.com,dramahd.me,exb
 anyxxxsex.com,bigjapaneseporn.com,bigsexhub.com,fullasiantube.com,hotpornsexvideos.com,hotxxxpussy.com,missasianporn.com,openxxxporn.com,originalindianporn.com,peppersextube.com,primaryporntube.com,redsexhub.com,sexpussyfuck.com,wowindianporn.com,xxxlargeporn.com,xxxpussyclips.com,xxxpussysextube.com,tubepornovideo.com##+js(abort-on-property-read.js, popit)
 anyxxxsex.com,bigjapaneseporn.com,bigsexhub.com,fullasiantube.com,hotpornsexvideos.com,hotxxxpussy.com,missasianporn.com,openxxxporn.com,originalindianporn.com,peppersextube.com,primaryporntube.com,redsexhub.com,sexpussyfuck.com,wowindianporn.com,xxxlargeporn.com,xxxpussyclips.com,xxxpussysextube.com,tubepornovideo.com#%#//scriptlet("abort-on-property-read", "popit")
 
-16honeys.com,adultjoy.net,iporntv.net,pinkclips.mobi##+js(set-constant.js, ckaduMobilePop, noopFunc)
-16honeys.com,adultjoy.net,iporntv.net,pinkclips.mobi#%#//scriptlet("set-constant", "ckaduMobilePop", "noopFunc")
-
 crazyshit.com,donk69.com,fantasti.cc,gfjizz.com,mrdeepfakes.com,pornxs.com,pornxt.com,smutr.com,yuvutu.com##+js(abort-on-property-write.js, phtData)
 crazyshit.com,donk69.com,fantasti.cc,gfjizz.com,mrdeepfakes.com,pornxs.com,pornxt.com,smutr.com,yuvutu.com#%#//scriptlet("abort-on-property-write", "phtData")
 
