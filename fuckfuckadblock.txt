@@ -1225,3 +1225,11 @@ mediafire.com##+js(addEventListener-defuser.js, click, ClickHandler)
 dragontea.ink##+js(remove-attr.js, style, body > div, stay)
 
 cryptstream.de,2ix2com.de,2ix2-alternative.de,2ix2tv.de,tv24livestream2.de,tv24livestream1.de,tv24livestream.de,mysqlcryptnow.de,mysql2dumpcrypt.de,nydus.org##+js(no-setTimeout-if.js, /ab==|window\.getComputedStyle\(el\)/)
+
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
