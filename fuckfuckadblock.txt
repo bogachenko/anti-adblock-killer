@@ -1302,3 +1302,5 @@ mediafire.com##+js(addEventListener-defuser.js, click, ClickHandler)
 dragontea.ink##+js(remove-attr.js, style, body > div, stay)
 
 cryptstream.de,2ix2com.de,2ix2-alternative.de,2ix2tv.de,tv24livestream2.de,tv24livestream1.de,mysqlcryptnow.de,mysql2dumpcrypt.de,nydus.org##+js(no-setTimeout-if.js, /ab==|window\.getComputedStyle\(el\)/)
+
+pallabmobile.in##body > div:nth-of-type(2) > div, pallabmobile.in##body > div:nth-of-type(2)
