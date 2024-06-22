@@ -1,13 +1,11 @@
-<!DOCTYPE html public>
-<html lang=en>
+<!DOCTYPE html>
+<html lang="en">
    <head>
-      <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLT4THFDL3"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-      
         gtag('config', 'G-PLT4THFDL3');
       </script>      
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +17,7 @@
       <meta name="publisher-email" content="bogachenkove@gmail.com" />
       <meta name="robots" content="index, follow" />
       <title>Fuck Fuckadblock</title>
-      <style type=text/css>
+      <style type="text/css">
          body {
          background-color: #f0f0f2;
          font-family: Segoe UI, Helvetica, Arial, sans-serif;
@@ -35,15 +33,9 @@
          line-height: 2;
          word-break: break-word;
          }
-         a:link {
+         a:link, a:visited, a:active {
          text-decoration: none;
          color: #0366d6;
-         }
-         a:visited {
-         text-decoration: none;
-         }
-         a:active {
-         text-decoration: none;
          }
          a:hover {
          text-decoration: underline;
@@ -52,14 +44,16 @@
          width: 1200px;
          padding: 50px;
          background-color: #fff;
+         margin: 0 auto;
+         border-radius: 5px;
          }
          h1 {
          font-size: 40px;
-         font-weight: var(--base-text-weight-semibold, 600);
+         font-weight: 600;
          }
          h3 {
          font-size: 1.25em;
-         font-weight: var(--base-text-weight-semibold, 600);
+         font-weight: 600;
          }
          p {
          font-size: 15px;
@@ -67,7 +61,6 @@
          @media(max-width:1300px) {
          div {
          width: auto;
-         margin: 0 auto;
          border-radius: 0;
          padding: 30px;
          }
@@ -75,9 +68,13 @@
          #main-block {
          border: 1px solid ThreeDShadow;
          border-radius: 5px;
-         margin: 0 auto;
          }
-         p.сopyright {
+         p.copyright {
+         font-size: 0.6em; 
+         line-height: 14px;
+         text-align: center;
+         }
+         p.wiki {
          font-size: 0.6em; 
          line-height: 14px;
          text-align: center;
@@ -125,25 +122,22 @@
          <p>To add the list for blocking miners, you can click on this button — <a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=rawlist&title=Fuck%20Fuckadblock%3A%20Mining">subscribe</a><br>or add it manually using this RAW link — <code>https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=rawlist</code></p>
          <h3 id="cdn-fuckfuckadblock">CDN<sup><a href="https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists">Why?</a></sup></h3>
          <ol>
-            <li><code>https://fuckfuckadblock.pages.dev/fuckfuckadblock.txt?_=rawlist</code>
-            </li>
-            <li><code>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=rawlist</code>
-            </li>
-            <li><code>https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=rawlist</code>
-            </li>
+            <li><code>https://fuckfuckadblock.pages.dev/fuckfuckadblock.txt?_=rawlist</code></li>
+            <li><code>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=rawlist</code></li>
+            <li><code>https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=rawlist</code></li>
          </ol>
          <p>and</p>
          <ol>
-            <li><code>https://fuckfuckadblock.pages.dev/fuckfuckadblock-mining.txt?_=rawlist</code>
-            </li>
-            <li><code>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=rawlist</code>
-            </li>
-            <li><code>https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=rawlist</code>
-            </li>
+            <li><code>https://fuckfuckadblock.pages.dev/fuckfuckadblock-mining.txt?_=rawlist</code></li>
+            <li><code>https://raw.githack.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=rawlist</code></li>
+            <li><code>https://cdn.statically.io/gh/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=rawlist</code></li>
          </ol>
          <h3 id="license-fuckfuckadblock">License<sup><a href="https://github.com/bogachenko/fuckfuckadblock/blob/master/LICENSE.md">So?</a></sup></h3>
          <p>MIT License.</p>
       </div>
-      <p class="сopyright">Copyright © 2023 <a href="mailto:bogachenkove@gmail.com">Vyacheslav Bogachenko</a></p>
+      <p class="wiki">
+         <a href="https://github.com/bogachenko/fuckfuckadblock/wiki">Wiki</a> - <a href="https://github.com/bogachenko/fuckfuckadblock/issues">Issues</a> - <a href="https://github.com/bogachenko/fuckfuckadblock/pulls">Pull requests</a> - <a href="https://github.com/bogachenko/fuckfuckadblock/wiki/Donate">Donate</a>
+      </p>
+      <p class="copyright">Copyright © 2024 <a href="mailto:bogachenkove@gmail.com">Vyacheslav Bogachenko</a></p>
    </body>
 </html>
