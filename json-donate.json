@@ -139,6 +139,11 @@
         "address": "0xE4869C3140134522383E316d329612bC886F85E2",
         "name": "Stellar (XLM)",
         "qrcode_address": "qrcode_address-003"
+      },
+      "AVAX": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Avalanche (AVAX)",
+        "qrcode_address": "qrcode_address-003"
       }
     },
     "ERC20": {
@@ -347,6 +352,11 @@
         "address": "3c329bfd840751404f4377cace534c8bafce833cd7bf002a0f86cc16c9c15842",
         "name": "USD Coin (USDC)",
         "qrcode_address": "qrcode_address-016"
+      },
+      "USDT": {
+        "address": "3c329bfd840751404f4377cace534c8bafce833cd7bf002a0f86cc16c9c15842",
+        "name": "Tether (USDT)",
+        "qrcode_address": "qrcode_address-016"
       }
     },
     "XLM": {
@@ -450,6 +460,28 @@
       "USDC": {
         "address": "0xE4869C3140134522383E316d329612bC886F85E2",
         "name": "USD Coin (USDC)",
+        "qrcode_address": "qrcode_address-003"
+      },
+      "USDT": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Tether (USDT)",
+        "qrcode_address": "qrcode_address-003"
+      }
+    },
+    "AVAXC": {
+      "AVAX": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "AVAX (AVAX)",
+        "qrcode_address": "qrcode_address-003"
+      },
+      "USDC": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "USD Coin (USDC)",
+        "qrcode_address": "qrcode_address-003"
+      },
+      "USDT": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Tether (USDT)",
         "qrcode_address": "qrcode_address-003"
       }
     }
