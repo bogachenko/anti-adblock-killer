@@ -223,7 +223,7 @@
         "name": "Shiba Inu (SHIB)",
         "qrcode_address": "qrcode_address-003"
       },
-      "Arbitrum": {
+      "ARB": {
         "address": "0xE4869C3140134522383E316d329612bC886F85E2",
         "name": "Arbitrum (ARB)",
         "qrcode_address": "qrcode_address-003"
