@@ -731,6 +731,43 @@
         "qrcode_address": "qrcode_address-004"
       }
     },
+    "Polygon zkEVM": {
+      "MATIC": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "MATIC (MATIC)",
+        "qrcode_address": "qrcode_address-004"
+      },
+      "ETH": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Ethereum (ETH)",
+        "qrcode_address": "qrcode_address-004"
+      },
+      "BTC": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Bitcoin (BTC)",
+        "qrcode_address": "qrcode_address-004"
+      },
+      "USDT": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Tether (USDT)",
+        "qrcode_address": "qrcode_address-004"
+      },
+      "USDC": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "USD Coin (USDC)",
+        "qrcode_address": "qrcode_address-004"
+      },
+      "UNI": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "Uniswap (UNI)",
+        "qrcode_address": "qrcode_address-004"
+      },
+      "CAKE": {
+        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
+        "name": "PancakeSwap (CAKE)",
+        "qrcode_address": "qrcode_address-004"
+      }
+    },
     "Optimism": {
       "OP": {
         "address": "0xE4869C3140134522383E316d329612bC886F85E2",
@@ -1027,43 +1064,6 @@
         "qrcode_address": "qrcode_address-004"
       }
     },
-    "Polygon zkEVM": {
-      "MATIC": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "MATIC (MATIC)",
-        "qrcode_address": "qrcode_address-004"
-      },
-      "ETH": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "Ethereum (ETH)",
-        "qrcode_address": "qrcode_address-004"
-      },
-      "BTC": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "Bitcoin (BTC)",
-        "qrcode_address": "qrcode_address-004"
-      },
-      "USDT": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "Tether (USDT)",
-        "qrcode_address": "qrcode_address-004"
-      },
-      "USDC": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "USD Coin (USDC)",
-        "qrcode_address": "qrcode_address-004"
-      },
-      "UNI": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "Uniswap (UNI)",
-        "qrcode_address": "qrcode_address-004"
-      },
-      "CAKE": {
-        "address": "0xE4869C3140134522383E316d329612bC886F85E2",
-        "name": "PancakeSwap (CAKE)",
-        "qrcode_address": "qrcode_address-004"
-      }
-    },
     "ICP": {
       "ICP": {
         "address": "5025d4e628722f283e966f3c981c656c435a1735455bb8dd72314c373bf1899e",
@@ -1083,8 +1083,8 @@
         "qrcode_address": "qrcode_address-004"
       }
     },
-    "METIS": {
-      "Metis": {
+    "Metis": {
+      "METIS": {
         "address": "0xE4869C3140134522383E316d329612bC886F85E2",
         "name": "Metis (METIS)",
         "qrcode_address": "qrcode_address-004"
