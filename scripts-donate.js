@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				if(c) {
 					o.textContent = `${c.address}`;
 					let h = r[c.qrcode_address];
-					s.src = `data:image/svg+xml;base64,${h}`, n.style.display = "block", selectText(o), a.innerHTML = `<i>The coin <strong>${c.name}</strong> was chosen in the chain <strong>${l}</strong>. <u>Please double-check the details.</u><br>Make sure that the address have chosen is used only for transferring the chosen <strong>${c.name}</strong> coin or its wrapped version.<br><strong><span class="warning-text">The verification can be performed by comparing the contract address of the token with the contract address of the deposited token.</span></strong><br>Sending tokens that do not match the specified contract address will result in an irreversible loss of assets.</i>`
+					s.src = `data:image/svg+xml;base64,${h}`, n.style.display = "block", selectText(o), a.innerHTML = `<i>The <strong>${c.name}</strong> has been chosen for transfer in the <strong>${l}</strong> chain. <u>Please double-check the details.</u><br><span class="warning-text">Make sure that the address have chosen is only used to transfer the <strong>${c.name}</strong> coin.</span><br>Sending tokens that do not match the specified contract address will result in an irreversible loss of assets.</i>`
 				}
 			} else o.textContent = "", s.src = "", a.textContent = "", n.style.display = "none"
 		})

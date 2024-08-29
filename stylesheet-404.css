@@ -5,31 +5,40 @@ font-size: 15px;
 line-height: 1;
 color: #24292e;
 }
-a:link, a:visited, a:active {
+
+a:link,
+a:visited,
+a:active {
 text-decoration: none;
 color: #0366d6;
 }
+
 a:hover {
 text-decoration: underline;
 }
+
 h3 {
 font-size: 1.25em;
 font-weight: 600;
 }
+
 @media(max-width:1300px) {
 table {
 width: auto;
 }
 }
+
 table#page {
 width: 100%;
 height: 100%;
 }
+
 td#titlecolor {
 background-color: #000000;
 }
+
 p.сopyright {
-font-size: 0.6em; 
+font-size: 0.6em;
 line-height: 14px;
 text-align: center;
 }

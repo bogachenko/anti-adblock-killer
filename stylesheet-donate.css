@@ -1,63 +1,63 @@
 body {
-	font-family: Arial, sans-serif;
-	margin: 20px;
-	text-align: center;
+font-family: Arial, sans-serif;
+margin: 20px;
+text-align: center;
 }
 
 select {
-	display: block;
-	padding: 5px;
-	width: 200px;
-	margin: 5px auto 15px;
+display: block;
+padding: 5px;
+width: 200px;
+margin: 5px auto 15px;
 }
 
 .result {
-	display: none;
-	margin-top: 20px
+display: none;
+margin-top: 20px
 }
 
 .result img {
-	max-width: 200px;
-	height: auto;
-	display: block;
-	margin: 10px auto 0;
+max-width: 200px;
+height: auto;
+display: block;
+margin: 10px auto 0;
 }
 
 #address {
-	word-wrap: break-word;
-	white-space: normal;
-	user-select: text;
-	cursor: text;
+word-wrap: break-word;
+white-space: normal;
+user-select: text;
+cursor: text;
 }
 
 .warning-text {
-    color: red;
+color: red;
 }
 
 p.copyright a {
-	text-decoration: none;
-	color: #000;
-	font-weight: 700;
+text-decoration: none;
+color: #000;
+font-weight: 700;
 }
 
 p.copyright a:hover {
-	line-height: 14px;
-	text-align: center;
-	text-decoration: none;
-	background-color: #000;
-	color: #dcdfe6;
+line-height: 14px;
+text-align: center;
+text-decoration: none;
+background-color: #000;
+color: #dcdfe6;
 }
 
 .floating_element a:hover {
-	line-height: 14px;
-	text-align: center;
-	text-decoration: none;
-	background-color: #000;
-	color: #dcdfe6;
+line-height: 14px;
+text-align: center;
+text-decoration: none;
+background-color: #000;
+color: #dcdfe6;
 }
 
 .floating_element a {
-	text-decoration: none;
-	color: #000;
-	font-weight: 700;
+text-decoration: none;
+color: #000;
+font-weight: 700;
 }
