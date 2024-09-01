@@ -1273,8 +1273,9 @@
       "QTUM": {
         "address": "QNitAhKrd7Z8TKZqP6DL3usoH3AiBJ5khz",
         "name": "Qtum (QTUM)",
-        "qrcode_address": "qrcode_address-033"
-      },
+        "qrcode_address": "qrcode_address-004"
+      }
+    },
       "Zeta EVM": {
         "BTC": {
           "address": "0xE4869C3140134522383E316d329612bC886F85E2",
