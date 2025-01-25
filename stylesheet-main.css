@@ -48,6 +48,16 @@ p {
 font-size: 15px;
 }
 
+.note {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+    background-color: #F5F6F7;
+    font-style: italic;
+}
+
 @media(max-width:1300px) {
 div {
 width: auto;
