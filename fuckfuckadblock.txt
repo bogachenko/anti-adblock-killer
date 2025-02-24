@@ -63,186 +63,186 @@
 
 ! expressurl.net
 @@*$domain=expressurl.net,generichide
-expressurl.net##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-expressurl.net##+js(noeval-if.js, DOMContentLoaded, showModal)
+expressurl.net##+js(aopr, app_vars.force_disable_adblock)
+expressurl.net##+js(noeval, DOMContentLoaded, showModal)
 
 ! mixrootmod.com
 @@$domain=mixrootmod.com,generichide
-mixrootmod.com##+js(no-setInterval-if.js, css_class.show)
+mixrootmod.com##+js(nosiif, css_class.show)
 
 ! 6ziz.com
-6ziz.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+6ziz.com##+js(noeval, DOMContentLoaded, showModal)
 
 ! altervista.org
-altervista.org##+js(noeval-if.js, DOMContentLoaded, showModal)
+altervista.org##+js(noeval, DOMContentLoaded, showModal)
 
 ! mlwbd.com
-fojik.site##+js(abort-current-script.js, document.documentElement, break)
+fojik.site##+js(acs, document.documentElement, break)
 
 ! doodstream.com
-doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script, decodeURI, decodeURIComponent)
-doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
-doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script.js, document.documentElement, break)
+doodstream.com,dooodster.com,d0000d.com,dood.*##+js(acs, decodeURI, decodeURIComponent)
+doodstream.com,dooodster.com,d0000d.com,dood.*##+js(nowoif)
+doodstream.com,dooodster.com,d0000d.com,dood.*##+js(acs, document.documentElement, break)
 
 ! voe.sx
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=voe.sx|maxfinishseveral.com
-voe.sx,maxfinishseveral.com##+js(no-window-open-if)
+voe.sx,maxfinishseveral.com##+js(nowoif)
 
 ! waploaded.com
-waploaded.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+waploaded.com##+js(aeld, /^(?:load|click)$/, popMagic)
 
 ! vidsrc.xyz
-vidsrc.*##+js(no-window-open-if.js)
+vidsrc.*##+js(nowoif)
 
 ! sexpopcorn.com
-sexpopcorn.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+sexpopcorn.com##+js(aeld, /^(?:load|click)$/, popMagic)
 
 ! smashystream.com
-smashy.stream##+js(no-window-open-if.js)
+smashy.stream##+js(nowoif)
 
 ! aerolla.net
-aeromods.app,aeroinsta.com,aerolla.net,aerowitter.com##+js(abort-on-property-read.js, HTMLIFrameElement)
+aeromods.app,aeroinsta.com,aerolla.net,aerowitter.com##+js(aopr, HTMLIFrameElement)
 
 ! megaup.net
-megaup.net##+js(no-window-open-if.js)
-megaup.net##+js(abort-current-inline-script.js, Math, break)
+megaup.net##+js(nowoif)
+megaup.net##+js(acs, Math, break)
 
 ! farlad.com
-farlad.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+farlad.com##+js(noeval, DOMContentLoaded, showModal)
 
 ! sendvid.com
-sendvid.com##+js(no-window-open-if.js)
+sendvid.com##+js(nowoif)
 
 ! nxbrew.net
-nxbrew.net##+js(noeval-if.js, DOMContentLoaded, showModal)
+nxbrew.net##+js(noeval, DOMContentLoaded, showModal)
 
 ! abysscdn.com
-abysscdn.com##+js(no-window-open-if.js)
+abysscdn.com##+js(nowoif)
 
 ! vidguard.site
-vidguard.site##+js(no-window-open-if.js)
+vidguard.site##+js(nowoif)
 
 ! waaw.to
-waaw.to##+js(no-window-open-if.js)
+waaw.to##+js(nowoif)
 
 ! vudeo.ws
-vudeo.ws##+js(no-window-open-if.js)
-vudeo.ws##+js(abort-current-script.js, document.documentElement, break)
+vudeo.ws##+js(nowoif)
+vudeo.ws##+js(acs, document.documentElement, break)
 
 ! uqload.net
-uqload.net##+js(abort-current-script.js, document.documentElement, break)
+uqload.net##+js(acs, document.documentElement, break)
 
 ! hqq.to
-hqq.to##+js(no-window-open-if.js)
+hqq.to##+js(nowoif)
 
 ! hoca4.com
-hoca4.com##+js(abort-current-script.js, document.documentElement, break)
+hoca4.com##+js(acs, document.documentElement, break)
 
 ! tarjetarojaenvivo.lat
-tarjetarojaenvivo.lat##+js(abort-current-script.js, document.documentElement, break)
+tarjetarojaenvivo.lat##+js(acs, document.documentElement, break)
 
 ! capo4play.com
-capo4play.com##+js(abort-current-script.js, document.documentElement, break)
+capo4play.com##+js(acs, document.documentElement, break)
 
 ! rojadirectaenhd.net
-rojadirectaenhd.net##+js(abort-current-script.js, document.documentElement, break)
+rojadirectaenhd.net##+js(acs, document.documentElement, break)
 
 ! visorsmr.com
-visorsmr.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+visorsmr.com##+js(noeval, DOMContentLoaded, showModal)
 
 ! gayvidsclub.com
-gayvidsclub.com##+js(no-window-open-if.js)
+gayvidsclub.com##+js(nowoif)
 
 ! aethersx2.net
-aethersx2.net##+js(no-setTimeout-if.js, ai_adb)
+aethersx2.net##+js(nostif, ai_adb)
 
 ! mixdrop.to
-mixdrop.*##+js(no-window-open-if.js)
-mixdrop.*##+js(abort-current-inline-script.js, Math, break)
+mixdrop.*##+js(nowoif)
+mixdrop.*##+js(acs, Math, break)
 
 ! filemoon.sx
-fu-1fbolpvq.nl,filemoon.*##+js(no-window-open-if.js)
+fu-1fbolpvq.nl,filemoon.*##+js(nowoif)
 
 ! veev.to
-veev.to##+js(no-window-open-if.js)
+veev.to##+js(nowoif)
 
 ! princetechzone.in
-princetechzone.in##+js(noeval-if.js, DOMContentLoaded, showModal)
+princetechzone.in##+js(noeval, DOMContentLoaded, showModal)
 
 ! pokeca-chart.com
-pokeca-chart.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+pokeca-chart.com##+js(noeval, DOMContentLoaded, showModal)
 
 ! noodlemagazine.com
-noodlemagazine.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
+noodlemagazine.com##+js(aeld, /^(?:load|click)$/, popMagic)
 
 ! moviesjoyhd.org
-moviesjoyhd.*,moviesjoytv.*##+js(abort-current-script.js, Object.defineProperty, break)
+moviesjoyhd.*,moviesjoytv.*##+js(acs, Object.defineProperty, break)
 
 ! streamingnow.mov
-streamingnow.mov##+js(abort-on-property-read.js, open)
-streamingnow.mov##+js(abort-current-inline-script.js, document.createElement, script)
+streamingnow.mov##+js(aopr, open)
+streamingnow.mov##+js(acs, document.createElement, script)
 
 ! ustream.to
-ustream.to##+js(no-window-open-if.js)
-ustream.to##+js(abort-current-inline-script.js, document.createElement, script)
+ustream.to##+js(nowoif)
+ustream.to##+js(acs, document.createElement, script)
 
 ! upfiles.com
-upfiles.*##+js(no-window-open-if.js)
-upfiles.*##+js(abort-current-inline-script.js, document.createElement, script)
-upfiles.*##+js(set-constant.js, shouldOpenPopUp, false)
+upfiles.*##+js(nowoif)
+upfiles.*##+js(acs, document.createElement, script)
+upfiles.*##+js(set, shouldOpenPopUp, false)
 
 ! 9anime.to
-9animetv.to,9anime.*,9-anime.com,9animes.*##+js(abort-current-inline-script.js, Math, break)
-9animetv.to,9anime.*,9-anime.com,9animes.*##+js(abort-current-script.js, document.documentElement, break)
+9animetv.to,9anime.*,9-anime.com,9animes.*##+js(acs, Math, break)
+9animetv.to,9anime.*,9-anime.com,9animes.*##+js(acs, document.documentElement, break)
 
 ! s3embtaku.pro
-s3embtaku.pro##+js(abort-current-script.js, document.documentElement, break)
+s3embtaku.pro##+js(acs, document.documentElement, break)
 
 ! fstream365.com
-fstream365.com##+js(abort-current-script.js, document.documentElement, break)
+fstream365.com##+js(acs, document.documentElement, break)
 
 ! odiadance.com
-odiadance.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+odiadance.com##+js(noeval, DOMContentLoaded, showModal)
 
 ! streamtape.com
 @@*/prebid.min.js|$script,domain=watchadsontape.com
-watchadsontape.com##+js(no-window-open-if.js)
-watchadsontape.com##+js(abort-current-inline-script.js, document.createElement, script)
+watchadsontape.com##+js(nowoif)
+watchadsontape.com##+js(acs, document.createElement, script)
 
 ! q34r.org
-q34r.org##+js(no-window-open-if.js)
+q34r.org##+js(nowoif)
 
 ! kyiv.ua
-kyiv.ua##+js(remove-node-text.js, script, mdpDeblocker)
+kyiv.ua##+js(acs, script, mdpDeblocker)
 
 ! in91vip.win
-in91vip.win##+js(abort-current-script.js, document.querySelectorAll, popMagic)
+in91vip.win##+js(acs, document.querySelectorAll, popMagic)
 
 ! solewe.com
-solewe.com##+js(noeval-if.js, DOMContentLoaded, showModal)
+solewe.com##+js(noeval, DOMContentLoaded, showModal)
 
 ! igay69.com
-igay69.com##+js(abort-current-inline-script.js, decodeURIComponent, ai_)
-igay69.com##+js(no-window-open-if.js)
+igay69.com##+js(acs, decodeURIComponent, ai_)
+igay69.com##+js(nowoif)
 
 ! pawastreams.pro
-pawastreams.pro##+js(no-setTimeout-if.js, ai_adb)
+pawastreams.pro##+js(nostif, ai_adb)
 
 ! computer76.ru
-computer76.ru##+js(no-setTimeout-if.js, ai_adb)
+computer76.ru##+js(nostif, ai_adb)
 
 ! camhub.tv
-camhub.*##+js(abort-on-property-read.js, open)
+camhub.*##+js(aopr, open)
 
 ! listeamed.net
 *$xmlhttprequest,third-party,redirect-rule=nooptext,domain=listeamed.net
-listeamed.net##+js(no-window-open-if.js)
+listeamed.net##+js(nowoif)
 
 ! animeunity.tv
-animeunity.*##+js(abort-current-script.js, document.documentElement, break)
+animeunity.*##+js(acs, document.documentElement, break)
 
 ! vixcloud.co
-vixcloud.co##+js(abort-current-script.js, document.documentElement, break)
+vixcloud.co##+js(acs, document.documentElement, break)
 
 ! keran.co
 keran.co##+js(no-xhr-if, googlesyndication)
