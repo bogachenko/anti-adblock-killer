@@ -85,8 +85,8 @@ doodstream.com,dooodster.com,d0000d.com,dood.*##+js(no-window-open-if.js)
 doodstream.com,dooodster.com,d0000d.com,dood.*##+js(abort-current-script.js, document.documentElement, break)
 
 ! voe.sx
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=robertordercharacter.com|voe.sx
-robertordercharacter.com,voe.sx##+js(no-window-open-if)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,redirect-rule=google-ima.js,domain=voe.sx|maxfinishseveral.com
+voe.sx,maxfinishseveral.com##+js(no-window-open-if)
 
 ! waploaded.com
 waploaded.com##+js(addEventListener-defuser.js, /^(?:load|click)$/, popMagic)
@@ -243,3 +243,6 @@ animeunity.*##+js(abort-current-script.js, document.documentElement, break)
 
 ! vixcloud.co
 vixcloud.co##+js(abort-current-script.js, document.documentElement, break)
+
+! keran.co
+keran.co##+js(no-xhr-if, googlesyndication)
