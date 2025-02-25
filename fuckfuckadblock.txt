@@ -49,7 +49,7 @@
 ||googleads.g.doubleclick.net/favicon.ico$image,redirect=32x32.png
 
 ! POPUP START
-/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$popunder,popup
+/\/[45](0[01])?\/\d{7}$/$popunder,popup
 /[?&]key=[a-f0-9]{32}$/$popunder,popup
 
 ! COMBINED START
@@ -246,3 +246,12 @@ vixcloud.co##+js(acs, document.documentElement, break)
 
 ! keran.co
 keran.co##+js(no-xhr-if, googlesyndication)
+
+! onlyfaucet.com
+onlyfaucet.com##+js(no-xhr-if, googlesyndication)
+
+! cutyion.com
+cutyion.com##+js(no-xhr-if, googlesyndication)
+
+! rsfaucet.com
+rsfaucet.com##+js(noeval, DOMContentLoaded, showModal)
